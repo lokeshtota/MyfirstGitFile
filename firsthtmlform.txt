@@ -1,0 +1,179 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    
+ 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>REGISTEATION</title> 
+<fieldset<LInk rel="stylesheet" href="reg.css"></LInk>> 
+</head> 
+<body> 
+<form> 
+<fieldset> 
+            <legend style="border-radius: 30px; 
+            border-color: brown; 
+            background-color:aquamarine; 
+            text-align:right ;"> 
+                 
+                Registeation</legend> 
+             
+ 
+            <tr> 
+                <td>FIRST NAME</td> 
+                <td> 
+                    <input type="text" name="first name" placeholder="FIRST NAME"> 
+                </td>  
+                <TD> 
+                    <SPan> FIRST NAME</SPan> 
+                </TD> 
+            </tr> 
+            <tr> 
+                <td>LAST NAME</td> 
+                <td> 
+                    <input type="text" name="LAST name" placeholder="LAST NAME"> 
+                </td>  
+                <TD> 
+                    <SPan> LAST NAME</SPan> 
+                </TD> 
+            </tr> 
+            <tr> 
+                <td>PASSWORD</td> 
+                <td> 
+                    <input type="password" name="first name" placeholder="PASSWORD"> 
+                </td>  
+                <TD> 
+                    <SPan> PASSWAOD </SPan> 
+                </TD> 
+            </tr> 
+            <tr> 
+                <td>CONFORM PASWORD</td> 
+                <td> 
+                    <input type="password" name="CONFORM PASSWAOD" placeholder="CONFORM PASSWAOD"> 
+                </td>  
+                <TD> 
+                    <SPan> CONFORM PASSWAOD</SPan> 
+                </TD> 
+            </tr> 
+            <tr> 
+                <td>Email id</td> 
+                <td> 
+                    <input type="email" name="MAIL ID" placeholder="MAIL ID"> 
+                </td>  
+                <TD> 
+                    <SPan> EMAIL ID </SPan> 
+                </TD> 
+            </tr> 
+            <tr> 
+                <td>AGE</td> 
+                <td> 
+                    <input type="number" name="ENTER AGE" placeholder="AGE"> 
+                </td>  
+                <TD> 
+                    <SPan> AGE </SPan> 
+                </TD> 
+            </tr> 
+            <tr> 
+                <td>GENDER</td> 
+                <td> 
+                    <link rel="stylesheet" href="REG.CSS"> 
+                   <div> <input type="radio" name="GENDER" value="MALE">MALE</div> 
+                <div> <input type="radio" name="GENDER" value="FEMAIE">FEMALE</td> </div> 
+                <TD> 
+                    <SPan> GENDER </SPan> 
+                </TD> 
+                </tr> 
+                <tr> 
+                    <td>SKILLS</td> 
+                    <td> 
+                        <link rel="stylesheet" href="REG.CSS"> 
+                    <div><input type="checkbox" name="SKILLS" value="C-LANG">C+ 
+                        <input type="checkbox" name="SKILLS" value="C++">C++</div> 
+                    <div> <input type="checkbox" name="SKILLS" value="JAVA">JAVA 
+                        <input type="checkbox" name="SKILLS" value="DOTNET">.NET</div> 
+                    </td> 
+                    </tr> 
+<TR> 
+    <TD>COUNTRY</TD> 
+    <TD> 
+        <SELect NAME="COUNTRY"> 
+            <OPtion value=""> select country</OPtion>estect 
+            <OPtion value="IND"> INDIA</OPtion>INDIA 
+            <OPtion value="PAK"> PAKISTAN</OPtion> PAK 
+            <OPtion value="USA">AMERICA</OPtion> USA 
+            <OPtion value="SRI">SRILAMKA</OPtion>SRI 
+        </SELect> 
+    </TD> 
+    <TD> 
+        <SPAN> SELECT COUNTRY</SPAN> 
+    </TD> 
+</TR> 
+<tr> 
+    <td>DOB</td> 
+    <td> 
+        <input type="date" name="DOB"> 
+    </td>  
+    <TD> 
+        <SPan> DATE OF BIRTH </SPan> 
+    </TD> 
+</tr> 
+<tr> 
+    <td>TIME</td> 
+    <td> 
+        <input type="TIME" name="ENTER"> 
+    </td>  
+    <TD> 
+        <SPan>TIME</SPan> 
+    </TD> 
+</tr> 
+<tr> 
+    <td>ADDRESS</td> 
+    <td> 
+        <TEXTarea NAME="NEW
+ADDRESS" cols="" rows="" placeholder="ADDRESS"></TEXTarea> 
+    </td>  
+    <TD> 
+        <SPan> <ADDRESS></ADDRESS> </SPan> 
+    </TD> 
+</tr> 
+<tr> 
+    <td>RANGE</td> 
+    <td> 
+        <input type="range" name="SCROL"> 
+    </td>  
+    <TD> 
+<tr> 
+    <td>RANGE</td> 
+    <td> 
+        <input type="FILE" name="PDF"> 
+    </td>  
+    <TD> 
+        <SPan>FILE PDF</SPan> 
+    </TD> 
+</tr> 
+<tr> 
+    <td>SUBMIT</td> 
+    <td> 
+        <input type="submit" name="OK"> 
+    </td>  
+    <TD> 
+        <SPan>SUBMIT</SPan> 
+    </TD> 
+</tr> 
+<tr> 
+    <td>CEANCEL</td> 
+    <td> 
+        <LInk rel="stylesheet" href="reg.css"></LInk> 
+        <input type="reset" name="CEANCEL"> 
+    </td>  
+    <TD> 
+        <SPan>CEANCEL</SPan> 
+    </TD> 
+</tr> 
+ 
+ </form>
+ 
+        </fieldset> 
+</body> 
+</html>
